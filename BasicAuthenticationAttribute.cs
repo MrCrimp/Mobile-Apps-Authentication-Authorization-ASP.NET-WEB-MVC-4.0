@@ -10,6 +10,7 @@ using WebMatrix.WebData;
 
 namespace Members.Webapi.Filters
 {
+    // Config med simple membership: http://weblogs.asp.net/jgalloway/archive/2012/08/29/simplemembership-membership-providers-universal-providers-and-the-new-asp-net-4-5-web-forms-and-asp-net-mvc-4-templates.aspx
     public class BasicAuthenticationAttribute : System.Web.Http.Filters.ActionFilterAttribute
     {
         public override void OnActionExecuting(System.Web.Http.Controllers.HttpActionContext actionContext)
